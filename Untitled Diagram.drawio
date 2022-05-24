@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T09:41:58.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="KjRmGqpnu1b69X1DRdS6" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T09:50:39.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="AFM_NRPByruGTg80AOiH" version="18.0.3" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="960" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#003469" math="0" shadow="0">
+    <mxGraphModel dx="961" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#003469" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,8 +76,8 @@
         <mxCell id="2043" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.dropbox_code_source;dashed=1;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
           <mxGeometry x="73" y="563" width="50" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="2044" value="apm监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
-          <mxGeometry x="60" y="620" width="120" height="20" as="geometry" />
+        <mxCell id="2044" value="apm监控、pinpoint监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
+          <mxGeometry x="63" y="615" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="2045" value="接入层" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.azure_website;dashed=1;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
           <mxGeometry x="278" y="258" width="50" height="50" as="geometry" />
@@ -85,7 +85,7 @@
         <mxCell id="2046" value="基础设施层" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.mobile_services;dashed=1;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
           <mxGeometry x="286.75" y="688" width="33.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2047" value="故障处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=36;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="2047" value="故障统筹图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=36;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="1060" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2048" value="统筹-SRE团队&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
@@ -94,17 +94,17 @@
         <mxCell id="2049" value="应用层" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="233.5" y="355" width="137.5" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="2055" value="业务恢复" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="2055" value="业务恢复-措施可并行" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="412.5" y="326" width="140" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="2056" value="Storage Servers" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.server_rack;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
-          <mxGeometry x="639" y="316" width="50" height="50" as="geometry" />
+        <mxCell id="2056" value="fastdfs图片" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.server_rack;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
+          <mxGeometry x="639" y="334" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2057" value="Database" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.database;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
-          <mxGeometry x="644" y="414" width="37.5" height="50" as="geometry" />
+        <mxCell id="2057" value="数据库数据&lt;br&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.database;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
+          <mxGeometry x="644" y="454.5" width="37.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2058" value="Physical&lt;div&gt;Data Storage&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.vhd;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
-          <mxGeometry x="643" y="590" width="40" height="50" as="geometry" />
+        <mxCell id="2058" value="异常队列&lt;br&gt;消息修补" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeColor=none;fillColor=#3399FF;shape=mxgraph.azure.vhd;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#004C99" parent="1" vertex="1">
+          <mxGeometry x="643" y="597" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2059" value="Identity" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="773" y="196" width="140" height="134" as="geometry" />
@@ -220,11 +220,8 @@
         <mxCell id="UMhFjB3zcCl4gjyQe9se-2088" value="中间件等" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="478" width="50" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="UMhFjB3zcCl4gjyQe9se-2090" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="400" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="UMhFjB3zcCl4gjyQe9se-2091" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="400" width="40" height="20" as="geometry" />
+          <mxGeometry x="1008" y="220" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UMhFjB3zcCl4gjyQe9se-2092" value="信息同步-质量组" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="413" y="501" width="140" height="134" as="geometry" />
@@ -290,7 +287,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UMhFjB3zcCl4gjyQe9se-2113" value="第三方云平台，第一时间寻找第三方专家支持" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#3399FF;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="419.5" y="705" width="130.5" height="25" as="geometry" />
+          <mxGeometry x="419.5" y="708" width="130.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UMhFjB3zcCl4gjyQe9se-2119" value="开放平台消息推送" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="205.25" width="39" height="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
